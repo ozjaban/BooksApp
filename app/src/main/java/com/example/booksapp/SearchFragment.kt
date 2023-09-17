@@ -85,7 +85,6 @@ class SearchFragment : Fragment() {
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
         outState.putString("searched_books", Json.encodeToString(listOfBooks))
-        Log.d("what ze", "$listOfBooks")
     }
 
     private fun searchForBook(requestParams: String) : List<Book> {
