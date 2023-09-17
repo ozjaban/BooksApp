@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">booksapp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="favorites_label">Favorites</string>
+    <string name="details_label">Details</string>
+    <string name="search">Search</string>
+    <string name="previous">Previous</string>
+
+</resources>
